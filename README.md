@@ -1,5 +1,8 @@
-# it's a flask api project 
-Environment: 
+
+# it's a flask api project  - my planet
+Author : eric ( ericlzyu@gmail.com )
+
+# Environment: 
 python 3.7
 flask + mongodb + docker
 
@@ -36,3 +39,4 @@ docker exec -it eric_flask-web_1 /bin/bash
 python initData/import_data_to_mongodb.py
 
 # screenshots
+
