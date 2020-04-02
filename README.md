@@ -9,7 +9,7 @@ flask + mongodb + docker
 # main code: 
 in server folder
 # how to test  :
-run : sh test.sh 
+run :  ``` sh test.sh ``` 
 
 
 # how to start it : 
