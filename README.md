@@ -22,10 +22,12 @@ docker-compose.yml
 
 
 # access api and mongo online
-you can access mongodb by express
+you can access mongodb by express 
+
 http://localhost:8081
 
 you can access flask api server backend online with api documents and test Api online
+
 http://localhost:5000
 
 # need to import initial data to mongodb by host machine
@@ -34,9 +36,12 @@ python3.7 initData/import_data_to_mongodb.py
 or 
 
 inside docker instance 
-run : 
-docker exec -it eric_flask-web_1 /bin/bash
-python initData/import_data_to_mongodb.py
+
+run :
+
+``` docker exec -it eric_flask-web_1 /bin/bash ```
+
+``` python initData/import_data_to_mongodb.py ```
 
 # screenshots
 
