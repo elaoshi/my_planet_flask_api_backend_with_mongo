@@ -67,7 +67,7 @@ kombu==4.6.8
 leather==0.3.3
 Mako==1.0.7
 MarkupSafe==1.1.1
-marshmallow==2.13.5
+marshmallow==2.15.1
 mccabe==0.6.1
 microsofttranslator==0.8
 mistune==0.8.4
