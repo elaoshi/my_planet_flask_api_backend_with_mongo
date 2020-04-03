@@ -5,6 +5,3 @@ docker build -t eric-flask .
 
 # run server and mongodb 
 docker-compose up -d 
-
-
-
