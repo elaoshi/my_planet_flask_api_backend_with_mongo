@@ -9,5 +9,3 @@ RUN pip install -r requirements.txt
 ENV PYTHONPATH=/app
 
 CMD python main.py
-
-TAG eric/apache
