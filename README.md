@@ -40,7 +40,7 @@ Inside docker instance
 
 Run :
 
-``` docker exec -it eric_flask-web_1 /bin/bash ```
+``` docker exec -it my_planet_flask_api_backend_with_mongo_flask-web_1 /bin/bash ```
 
 ``` python initData/import_data_to_mongodb.py ```
 
