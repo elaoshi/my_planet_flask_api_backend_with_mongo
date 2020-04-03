@@ -35,7 +35,7 @@ class PersonItem(Resource):
         '''get person detail'''
         pattern = re.compile("^[0-9]{1,6}$")
         if bool(pattern.match(id)) is False :
-            api.abort(400)
+            api.abort(400,'Invalid Input')
 
 
         people = People()
@@ -43,7 +43,7 @@ class PersonItem(Resource):
         try:
             index = int(id)
         except:
-            api.abort(400)
+            api.abort(400,'Invalid Input')
 
         result_list = people.getDetailById(index)
         
