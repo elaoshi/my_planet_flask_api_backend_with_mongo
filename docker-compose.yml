@@ -19,6 +19,7 @@ services:
     volumes:
       - ./server:/app
       - ./initData:/app/initData
+      - ./tests:/app/bddtests
       
   mongo:
     image: mongo
