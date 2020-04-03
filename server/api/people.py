@@ -33,7 +33,7 @@ class PersonItem(Resource):
     
     def get(self,id ):
         '''get person detail'''
-        pattern = re.compile("^[0-9]+{,6}$")
+        pattern = re.compile("^[0-9]{1,6}$")
         if bool(pattern.match(id)) is False :
             api.abort(400)
 
@@ -62,7 +62,7 @@ class FriendsItem(Resource):
     def get(self,person_a_id, person_b_id ):
         '''get common friends between people A and B '''
 
-        pattern = re.compile("^[0-9]+$")
+        pattern = re.compile("^[0-9]{1,10}$")
         if bool(pattern.match(person_a_id)) is False :
             api.abort(400,"input error")
         if bool(pattern.match(person_b_id)) is False :

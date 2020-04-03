@@ -62,6 +62,13 @@ def test_common_friends_api_should_return_error():
     assert r.status_code == 400 
     
 
+def test_common_friends_api_should_return_error2():
+    peopleA = "9387395734523424394"
+    peopleB = "44"
+    surl = url+"/%s/%s"%(peopleA,peopleB)
+    r = requests.get(surl) 
+    assert r.status_code == 400  
+
 def test_common_friends_api_should_not_found():
     peopleA = "99999"
     peopleB = "44"
