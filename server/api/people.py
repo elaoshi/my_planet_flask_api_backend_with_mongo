@@ -33,7 +33,7 @@ class PersonItem(Resource):
     
     def get(self,id ):
         '''get person detail'''
-        pattern = re.compile("^[0-9]+$")
+        pattern = re.compile("^[0-9]+{,6}$")
         if bool(pattern.match(id)) is False :
             api.abort(400)
 

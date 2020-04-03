@@ -44,7 +44,7 @@ class EmployeesListByCampanyId(Resource):
                 params={ 'id': 'Specify the Id associated with the company' })
     def get(self,id):
         '''List all employee by id of company'''
-        pattern = re.compile("^[0-9]+$")
+        pattern = re.compile("^[0-9]+{,6}$")
         if bool(pattern.match(id)) is False :
             api.abort(400,"input error")
 
