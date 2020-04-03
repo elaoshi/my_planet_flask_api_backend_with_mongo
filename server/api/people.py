@@ -8,24 +8,6 @@ import re
 api = Namespace('people', description='People related operations')
 
 
-@api.route('/')
-class ItemList(Resource):
-    @api.doc('list_items')
-    # @api.marshal_list_with(item)
-    def get(self):
-        '''List all items'''
-        collection_name = 'people'
-        db = mng_db[collection_name]
-
-        listOfItems = []
-        try:
-            result_list = db.find()
-        except:
-            api.abort(500, 'system error')
-        for item in result_list:
-            listOfItems.append(item['index'])
-        return listOfItems
-
 @api.route('/<id>')
 class PersonItem(Resource):
     @api.doc(responses={ 200: 'OK', 400: 'Invalid Input', 204:"not found",500: 'Mapping Key Error' }, 
