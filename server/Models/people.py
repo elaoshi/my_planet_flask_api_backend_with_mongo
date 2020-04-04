@@ -127,7 +127,9 @@ class People():
 
 
         dataOutput = []
+        keys_wanted = ['age','name','eyeColor','has_died']
         for item in commonFriend:
+            item = dict((key,value) for key, value in item.items() if key in keys_wanted)
             dataOutput.append(item)
             
         return dataOutput
