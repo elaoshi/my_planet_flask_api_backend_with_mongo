@@ -46,3 +46,7 @@ Run :
 
 # Screenshots
 
+<img src="https://github.com/elaoshi/my_planet_flask_api_backend_with_mongo/blob/master/screenshots/api.png?raw=true" width=200>
+<img src="https://github.com/elaoshi/my_planet_flask_api_backend_with_mongo/blob/master/screenshots/friends.png?raw=true" width=200>
+<img src="https://github.com/elaoshi/my_planet_flask_api_backend_with_mongo/blob/master/screenshots/favourite.png?raw=true" width=200>
+
