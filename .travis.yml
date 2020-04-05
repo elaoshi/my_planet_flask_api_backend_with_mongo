@@ -5,4 +5,4 @@ install:
   - pip install -r server/requirements.txt
 # command to run tests
 script:
-  - cd server && pytest
+  - cd server && python test.py
