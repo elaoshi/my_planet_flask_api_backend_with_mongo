@@ -5,4 +5,5 @@ install:
   - pip install -r server/requirements.txt
 # command to run tests
 script:
-  - python server/test.py
+  # - python server/test.py
+  - cd server && python test-in-docker.py
