@@ -30,7 +30,7 @@ django-cookie-law==1.0.13
 django-countries==5.0
 django-debug-toolbar==1.8
 django-material==1.0.0
-django-registration==2.3
+django-registration==3.1.2
 django-rosetta==0.7.13
 docutils==0.16
 enum-compat==0.0.3
