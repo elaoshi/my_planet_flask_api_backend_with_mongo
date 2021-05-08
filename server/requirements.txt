@@ -34,7 +34,7 @@ django-registration==2.3
 django-rosetta==0.7.13
 docutils==0.16
 enum-compat==0.0.3
-eventlet==0.21.0
+eventlet==0.31.0
 Faker==4.0.2
 filelock==3.0.12
 flake8==3.5.0
