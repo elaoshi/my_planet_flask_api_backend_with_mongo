@@ -65,7 +65,7 @@ jmespath==0.9.5
 jsonschema==3.2.0
 kombu==4.6.8
 leather==0.3.3
-Mako==1.0.7
+Mako==1.2.2
 MarkupSafe==1.1.1
 marshmallow==2.15.1
 mccabe==0.6.1
